@@ -19,7 +19,16 @@
     <link rel="stylesheet" href="{{uiRootPath}}/css/site.css">
 {{> head}}
   </head>
+  <link rel='stylesheet' id='app-css'  href='https://portx.io/wp-content/themes/portx/assets/css/app.css?ver=4.9.8' type='text/css' media='all' />
+    <link rel='stylesheet' id='styles-css'  href='https://portx.io/wp-content/themes/portx/style.css?ver=4.9.10' type='text/css' media='all' />
+    <script type='text/javascript' src='https://portx.io/wp-content/themes/portx/bower_components/foundation/js/vendor/jquery.js?ver=2.1.1'></script>
+    <script>
+       jQuery(document).ready(function(){
+          jQuery( "#nav" ).load( "/ #top-nav");
+        });
+</script>
   <body class="article">
+      <div id="nav"></div>
 {{> header}}
 {{> main}}
 {{> footer}}
