@@ -17,32 +17,181 @@
     <meta name="generator" content="Antora {{or antoraVersion site.antoraVersion}}">
     {{/if}}
     <link rel="stylesheet" href="{{uiRootPath}}/css/site.css">
+     <link rel='stylesheet'href='https://portx.io/portx.min.css?ver=2.1.5' type='text/css' media='all' />
 {{> head}}
   </head>
-  <link rel='stylesheet' id='generate-style-css'  href='/wp-content/themes/generatepress/style.min.css?ver=2.1.4' type='text/css' media='all' />
-  <link rel='stylesheet' id='generate-style-css'  href='/docs/docs.css?ver=2.1.4' type='text/css' media='all' />
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>
-    jQuery(document).ready(function(){
-    jQuery( "#nav" ).load( "/ #masthead");
-    });
-  </script>
+
   <body class="article">
-      <div id="nav"></div>
+      <!-- BEGIN NAV INCLUDE -->
+    <div class="modus-docs" [_ngcontent-c0]>
+      <header itemtype="https://schema.org/WPHeader" itemscope="itemscope" id="masthead" class="site-header">
+        <div class="inside-header">
+          <div class="site-logo">
+            <a href="https://portx.io/" title="PortX.io" rel="home">
+              <img
+                class="header-image"
+                alt="PortX.io"
+                src="https://portx.io/wp-content/uploads/2018/09/Modusbox_Logos_Portx_Horizontal_WhitenoIO.png"
+                title="PortX.io"
+              />
+            </a>
+          </div>
+          <nav
+            itemtype="https://schema.org/SiteNavigationElement"
+            itemscope="itemscope"
+            id="site-navigation"
+            class="main-navigation"
+          >
+            <div class="inside-navigation">
+              <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="mobile-menu">Menu</span>
+              </button>
+              <div id="primary-menu" class="main-nav">
+                <ul id="menu-primary-2-0" class=" menu sf-menu">
+                  <li
+                    id="menu-item-1172"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1172"
+                  >
+                    <a href="https://portx.io/products/"
+                      >Products<span role="presentation" class="dropdown-menu-toggle"></span
+                    ></a>
+                    <ul class="sub-menu">
+                      <li
+                        id="menu-item-1308"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1308"
+                      >
+                        <a href="https://portx.io/products/">Partner Manager</a>
+                      </li>
+                      <li
+                        id="menu-item-1525"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1525"
+                      >
+                        <a href="https://portx.io/service-manager/">Service Manager</a>
+                      </li>
+                      <li
+                        id="menu-item-1307"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1307"
+                      >
+                        <a href="https://portx.io/portx-as2-connector/">AS2 Connector</a>
+                      </li>
+                      <li
+                        id="menu-item-1306"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1306"
+                      >
+                        <a href="https://portx.io/jd-edwards-connector/">JD Edwards Connector</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li
+                    id="menu-item-1178"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1178"
+                  >
+                    <a href="https://portx.io/portx-pricing/">Pricing</a>
+                  </li>
+                  <li
+                    id="menu-item-1237"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1237"
+                  >
+                    <a href="https://portx.io/resources/"
+                      >Resources<span role="presentation" class="dropdown-menu-toggle"></span
+                    ></a>
+                    <ul class="sub-menu">
+                      <li
+                        id="menu-item-1256"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1256"
+                      >
+                        <a href="/resources/#white">Whitepapers and Case Studies</a>
+                      </li>
+                      <li
+                        id="menu-item-1254"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1254"
+                      >
+                        <a href="https://portx.io/blog/">Blog</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li
+                    id="menu-item-1462"
+                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-970 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1462"
+                  >
+                    <a href="https://portx.io/edi-integrations-with-mulesoft-esb/"
+                      >Platforms<span role="presentation" class="dropdown-menu-toggle"></span
+                    ></a>
+                    <ul class="sub-menu">
+                      <li
+                        id="menu-item-1463"
+                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-970 current_page_item menu-item-1463"
+                      >
+                        <a href="https://portx.io/edi-integrations-with-mulesoft-esb/">MuleSoft</a>
+                      </li>
+                      <li
+                        id="menu-item-1465"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1465"
+                      >
+                        <a href="https://portx.io/edi-b2b-integrations-with-ws02/">WS02</a>
+                      </li>
+                      <li
+                        id="menu-item-1492"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1492"
+                      >
+                        <a href="https://portx.io/tibco-and-portx-evolve-your-internal-and-b2b-integrations/">Tibco</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li
+                    id="menu-item-1238"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1238"
+                  >
+                    <a href="/docs/">Docs</a>
+                  </li>
+                  <li
+                    id="menu-item-1239"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1239"
+                  >
+                    <a href="https://portx.io/contact/">Contact</a>
+                  </li>
+                  <li
+                    id="menu-item-1271"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1271"
+                  >
+                    <a href="https://partnermanager.portx.io/portal">Login</a>
+                  </li>
+                  <li id="menu-item-552" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-552">
+                    <a href="tel:8885045045">(888) 504-5045</a>
+                  </li>
+                  <li id="menu-item-593" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-593">
+                    <a href="/signup/">Try for Free</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <!-- END NAV INCLUDE -->
+
 {{> header}}
 {{> main}}
 {{> footer}}
+
+<script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      jQuery(document).ready(function() {
+        jQuery('.menu-toggle').on('click', function(){
+          jQuery('.main-navigation').toggleClass('toggled');
+        });
+        jQuery('.dropdown-menu-toggle').on('click', function(e){
+          e.stopPropagation();
+          e.preventDefault();
+          jQuery(this).parent().next().toggleClass('toggled-on');
+        });
+      });
+    </script>
   </body>
 </html>
-
-<link rel='stylesheet' id='generate-style-css'  href='/wp-content/themes/generatepress/style.min.css?ver=2.1.4' type='text/css' media='all' />
-<link rel='stylesheet' id='generate-style-css'  href='/docs/docs.css?ver=2.1.4' type='text/css' media='all' />
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script>
-  jQuery(document).ready(function(){
-    jQuery( "#nav" ).load( "/ #masthead");
-  });
-</script>
-
-
-
