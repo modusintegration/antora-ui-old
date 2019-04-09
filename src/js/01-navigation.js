@@ -120,8 +120,9 @@
   }
 
   function getNavState () {
-    var data = window.sessionStorage.getItem('nav-state')
-    return data && (data = JSON.parse(data)).__version__ === '1' ? data : { __version__: '1' }
+    //var data = window.sessionStorage.getItem('nav-state')
+    //return data && (data = JSON.parse(data)).__version__ === '1' ? data : { __version__: '1' }
+    return {}
   }
 
   function getMenuState (navState, component, version) {
@@ -130,7 +131,7 @@
   }
 
   function saveNavState () {
-    window.sessionStorage.setItem('nav-state', JSON.stringify(navState))
+    //window.sessionStorage.setItem('nav-state', JSON.stringify(navState))
   }
 
   function scrollItemIntoView (scrollPosition, parent, el) {
